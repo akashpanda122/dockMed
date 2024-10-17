@@ -10,7 +10,7 @@ The **DockMed** multihop functionality allows cross-chain transactions starting 
 
 ---
 
-## **Contract Evolution: medX to CCIPCrossChainHop**
+## **Contract Evolution: docMed to CCIPCrossChainHop**
 
 ### **DockMed Cross-Chain Hop Contract**
 
