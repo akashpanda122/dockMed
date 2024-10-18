@@ -69,7 +69,7 @@ export function TableComponent() {
                 ) => (
                     <div
                         key={index}
-                        className="bg-[#EDF9FC] shadow-lg h-fit rounded-lg p-5"
+                        className="bg-blue-50 shadow-lg h-fit rounded-lg p-5"
                     >
                         <div className="flex items-center gap-x-4">
                             {avatar}
@@ -124,7 +124,7 @@ export function TableComponent() {
                     </div>
                 )
             )}
-            <div className=" col-span-2 rounded-lg bg-[#EDF9FC] px-5  shadow-md">
+            <div className=" col-span-2 rounded-lg bg-blue-50 px-5  shadow-md">
                 <Table className="">
                     <TableCaption>A list of your recent records.</TableCaption>
                     <TableHeader>

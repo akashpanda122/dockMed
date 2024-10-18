@@ -1,0 +1,34 @@
+{
+  "leaves": [
+    {
+      "type": "string",
+      "name": "dosage",
+      "value": "Take one tablet daily",
+      "salt": "0xc9d5c13d44fd1f75a3aba7d468298baef339410dfd17cd8f716371aad6223a51"
+    },
+    {
+      "type": "string",
+      "name": "medication",
+      "value": "Lisinopril 10mg",
+      "salt": "0x3db23ec543afeb4841f1fb75cfaf959486835926f0e2a1ae21b229d3371ed1d9"
+    },
+    {
+      "type": "string",
+      "name": "duration",
+      "value": "30 days",
+      "salt": "0xa3b022990d221cd4d6a96b2ba155be3400e30dbdad49f358f61a224dbfea3c39"
+    },
+    {
+      "type": "string",
+      "name": "prescriptionId",
+      "value": "presc-001",
+      "salt": "0xe43debfe395c0ab804f514f92aee93e30928f45098514d62db73580b8ba9bbfd"
+    }
+  ],
+  "proof": [],
+  "proofFlags": [
+    true,
+    true,
+    true
+  ]
+}

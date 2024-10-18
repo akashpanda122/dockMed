@@ -5,7 +5,7 @@ import {
     dietitian,
     gastroenterologist,
     generalDoctor,
-    generalSurgeon,
+    cardio,
     gynecologist,
     orthopedist,
     pediatrician,
@@ -47,19 +47,19 @@ const inClinicOpds = [
         id: 5,
         name: 'General Surgeon',
         dis: 'Need to get operated? Find the right surgeon.',
-        image: generalSurgeon,
+        image: generalDoctor,
     },
     {
         id: 6,
         name: 'Cardiologist',
         dis: 'Your heart’s health is our priority. From heart checks to complex care, we help you live a heart-healthy life every beat of the way',
-        image: orthopedist,
+        image: cardio,
     },
     {
         id: 7,
         name: 'Orthopedist',
         dis: 'Keep moving with confidence! Whether it’s a sprain, fracture, or joint pain, we help you stay active and pain-free',
-        image: generalDoctor,
+        image: orthopedist,
     },
     {
         id: 8,
@@ -80,10 +80,10 @@ const InclinicSection = () => {
         <div className="w-full mx-4 flex flex-col gap-10">
             <div className="">
                 <div className="space-y-2">
-                    <h1 className="font-bold text-xl text-[#243352]">
+                    <h1 className="text-xl font-bold sm:text-2xl">
                         Book an appointment for an in-clinic consultation
                     </h1>
-                    <p className="font-light">
+                    <p className="mt-4 text-gray-600">
                         Find experienced doctors across all specialties
                     </p>
                 </div>

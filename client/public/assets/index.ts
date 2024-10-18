@@ -2,32 +2,32 @@ import generalImg from '../assets/medical-assistance.png';
 import otologyImg from '../assets/otology.png';
 import dentalImg from '../assets/dentist.png';
 import neurologyImg from '../assets/neurologist.png';
-import gastroImg from '../assets/gastroenterology.svg';
+import stomach from '../assets/stomach.png';
 import orthopedicImg from '../assets/orthopedic.png';
 import cardiologyImg from '../assets/cardiologist.png';
-import dentist from '../assets/sp-dentist.jpg';
-import dietitian from '../assets/sp-dietitian.jpg';
-import gastroenterologist from '../assets/sp-gastroenterologist.jpg';
-import generalDoctor from '../assets/sp-general-doctor.jpg';
-import generalSurgeon from '../assets/sp-general-surgeon.jpg';
-import gynecologist from '../assets/sp-gynecologist.jpg';
-import orthopedist from '../assets/sp-orthopedist.jpg';
-import pediatrician from '../assets/sp-pediatrician.jpg';
-import physiotherapist from '../assets/sp-physiotherapist.jpg';
+import dentist from '../assets/img-2.jpg';
+import dietitian from '../assets/dietitian.jpg';
+import gastroenterologist from '../assets/img-1.jpg';
+import generalDoctor from '../assets/general-doctor.jpg';
+import cardio from '../assets/cardioligist-1.jpg';
+import gynecologist from '../assets/gynecologist.jpg';
+import orthopedist from '../assets/ortho.jpg';
+import pediatrician from '../assets/img-3.jpg';
+import physiotherapist from '../assets/physio.jpg';
 
 export {
     generalImg,
     otologyImg,
     dentalImg,
     neurologyImg,
-    gastroImg,
+    stomach,
     orthopedicImg,
     cardiologyImg,
     dentist,
     dietitian,
     gastroenterologist,
     generalDoctor,
-    generalSurgeon,
+    cardio,
     gynecologist,
     orthopedist,
     physiotherapist,

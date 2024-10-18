@@ -2,7 +2,7 @@ import React from 'react';
 import {
     cardiologyImg,
     dentalImg,
-    gastroImg,
+    stomach,
     generalImg,
     neurologyImg,
     orthopedicImg,
@@ -45,7 +45,7 @@ const opds = [
     {
         id: 7,
         opdName: 'Gastrology',
-        image: gastroImg,
+        image: stomach,
     },
 ];
 
@@ -54,18 +54,18 @@ const OpdSelection = () => {
         <div className=" w-full  flex flex-col gap-10">
             <div className="flex  justify-between items-center">
                 <div className="space-y-2">
-                    <h1 className="font-bold text-xl text-[#243352]">
+                    <h1 className="text-xl font-bold sm:text-2xl">
                         Get expert medical advice from top doctors, anytime,
                         anywhere.
                     </h1>
-                    <p className="font-light">
+                    <p className="mt-4 text-gray-600">
                         Secure online sessions with verified doctors in every
                         specialty.
                     </p>
                 </div>{' '}
                 <Link href="/doctors">
-                    <button className="group/button  relative overflow-hidden rounded-md border border-[#52D2CF] bg-white px-4 py-1 text-sm font-medium text-[#157D7A] transition-all duration-150 hover:border-[#1a3d3c] active:scale-95">
-                        <span className="absolute bottom-0 left-0 z-0 h-0 w-full bg-gradient-to-t from-[#4ab7b3] to-[#19d5cf] transition-all duration-500 group-hover/button:h-full" />
+                    <button className="group/button  relative overflow-hidden rounded-full border border-[#0A6EFF] bg-white px-4 py-1 text-sm font-medium text-[#0A6FEE] transition-all duration-150 hover:bg-[#0A6EFF] hover:text-white active:scale-95">
+                        <span className="absolute bottom-0 left-0 z-0 h-0 w-full bg-gradient-to-t from-[#0A6EFF] to-[#0A6EFF] transition-all duration-500 group-hover/button:h-full" />
                         <span className="relative z-10 transition-all duration-500 group-hover/button:text-white">
                             Explore All Specialties
                         </span>
@@ -83,6 +83,8 @@ const OpdSelection = () => {
                                 src={opd.image}
                                 alt={opd.opdName}
                                 className=""
+                                width={100}
+                                height={100}
                             />
                             <label className="text-blue-600 text-sm">{opd.opdName}</label>
                             <Link href="/doctors">

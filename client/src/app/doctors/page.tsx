@@ -2,10 +2,14 @@ import Image from 'next/image';
 import { RxAvatar } from 'react-icons/rx';
 //import MedxApp from '../../../public/assets/MedxApp.png';
 import Link from 'next/link';
+import img1 from '../../../public/assets/doctor.jpg'
+import img2 from '../../../public/assets/doctor-2.png'
+import img3 from '../../../public/assets/doctor-3.png'
+import img4 from '../../../public/assets/doctor-4.png'
 
 const doctorDetails = [
     {
-        avatar: <RxAvatar size={100} />,
+        avatar: <Image src={img1} alt='' className='size-20 rounded-lg' />,
         name: 'Dr. Emily Watson',
         short_desc: 'Cardiologist with 10+ years of experience in treating heart-related conditions',
         desc: 'Dr. Emily Watson is a board-certified cardiologist specializing in heart disease prevention, diagnosis, and treatment. She has successfully managed complex cases of hypertension, arrhythmia, and heart failure. Dr. Watson is known for her compassionate patient care and uses the latest diagnostic tools to ensure effective treatment.',
@@ -15,7 +19,7 @@ const doctorDetails = [
         hospitals: 'Mercy General Hospital, Heart Care Clinic',
     },
     {
-        avatar: <RxAvatar size={100} />,
+        avatar: <Image src={img3} alt='' className='size-20 rounded-lg' />,
         name: 'Dr. John Mitchell',
         short_desc: 'Orthopedic Surgeon with expertise in joint replacement and sports injuries',
         desc: 'Dr. John Mitchell is a leading orthopedic surgeon with over 12 years of experience in joint reconstruction, trauma surgery, and sports injury management. His patients commend his meticulous surgical approach and comprehensive post-operative care. Dr. Mitchell is committed to helping patients regain mobility and improve their quality of life.',
@@ -25,9 +29,9 @@ const doctorDetails = [
         hospitals: 'City Orthopedic Center, Sports Medicine Institute',
     },
     {
-        avatar: <RxAvatar size={100} />,
+        avatar: <Image src={img2} alt='' className='size-20 rounded-lg' />,
         name: 'Dr. Priya Sharma',
-        short_desc: 'Pediatrician focused on child health and development. Specialized in the physical, mental and emotional well-being of children from infancy to adolescence',
+        short_desc: 'Specialized in mental and emotional well-being of children from infancy',
         desc: 'Dr. Priya Sharma is a highly experienced pediatrician who has dedicated her career to improving children’s health and well-being. With over 8 years of experience, she specializes in treating childhood illnesses, monitoring developmental milestones, and providing preventive healthcare. Parents appreciate her warm and patient approach to caring for their children.',
         language: 'English, Hindi',
         education: 'MBBS, AIIMS Delhi',
@@ -35,7 +39,7 @@ const doctorDetails = [
         hospitals: 'Sunshine Children’s Hospital, Kids Care Clinic',
     },
     {
-        avatar: <RxAvatar size={100} />,
+        avatar: <Image src={img4} alt='' className='size-20 rounded-lg' />,
         name: 'Dr. Richard Lee',
         short_desc: 'Dermatologist with specialization in cosmetic and medical dermatology.',
         desc: 'Dr. Richard Lee is an expert in both medical and cosmetic dermatology, treating conditions such as acne, eczema, and skin cancer. He also offers cosmetic services, including laser treatments, anti-aging therapies, and chemical peels. With over 15 years of practice, Dr. Lee is known for personalized treatments and exceptional results.',
@@ -67,7 +71,7 @@ const page = () => {
                         return (
                             <div
                                 key={index}
-                                className="border-y py-9 flex items-center justify-center gap-10"
+                                className="border-y py-9 flex items-center justify-center gap-10 px-2"
                             >
                                 {avatar}
                                 <div>
@@ -109,7 +113,7 @@ const page = () => {
                                         {' '}
                                         <Link
                                             href={'/doctor/shikha'}
-                                            className="group/button relative inline-flex flex-col items-center justify-center overflow-hidden rounded-md bg-[#52D2CF] px-4 py-1.5 text-xs font-normal text-white transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:shadow-[#7cc2c1] "
+                                            className="group/button relative inline-flex flex-col items-center justify-center overflow-hidden rounded-full bg-[#0A6EFF] px-4 py-1.5 text-xs font-normal text-white transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:shadow-[#7cc2c1] "
                                         >
                                             <span className="text-sm">
                                                 Book CLinic Visit
@@ -123,8 +127,8 @@ const page = () => {
                                         </Link>
                                     </div>
                                     <div>
-                                        <button className="group/button  relative overflow-hidden rounded-md border border-[#52D2CF] bg-white px-4 py-1 text-xs font-medium text-[#157D7A] transition-all duration-150 hover:border-[#1a3d3c] active:scale-95">
-                                            <span className="absolute bottom-0 left-0 z-0 h-0 w-full bg-gradient-to-t from-[#4ab7b3] to-[#19d5cf] transition-all duration-500 group-hover/button:h-full" />
+                                        <button className="group/button  relative overflow-hidden rounded-md border border-[#0A6EFF] bg-white px-4 py-1 text-xs font-medium text-[#0A6EFF] transition-all duration-150 hover:border-[#243352] active:scale-95">
+                                            <span className="absolute bottom-0 left-0 z-0 h-0 w-full bg-gradient-to-t from-[#0A6EFF] to-[#0A6Eff] transition-all duration-500 group-hover/button:h-full" />
                                             <span className="relative z-10 transition-all duration-500 group-hover/button:text-white">
                                                 Book Video Consult
                                             </span>

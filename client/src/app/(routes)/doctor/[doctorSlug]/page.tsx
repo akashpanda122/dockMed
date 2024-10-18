@@ -5,7 +5,7 @@ import { RadioGroupDemo } from '@/app/components/ui/RadioButton/radioButton';
 import { DOCTOR_PROFILE } from '@/config';
 import usdcLogo from '../../../../../public/assets/usdcLogo.png';
 import Image from 'next/image';
-import Doctor from '../../../../../public/assets/sp-general-surgeon.jpg'
+import Doctor from '../../../../../public/assets/doctor.jpg';
 import { GraduationCap, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 

@@ -77,7 +77,7 @@ const DoctorTableComponent = () => {
                 ) => (
                     <div
                         key={index}
-                        className="bg-[#EDF9FC] shadow-lg h-fit rounded-lg p-5"
+                        className="bg-blue-50 shadow-lg h-fit rounded-lg p-5"
                     >
                         <div className="flex items-center gap-x-4">
                             {avatar}
@@ -127,7 +127,7 @@ const DoctorTableComponent = () => {
                     </div>
                 )
             )}
-            <div className=" col-span-2 rounded-lg  bg-[#EDF9FC] px-5  shadow-md">
+            <div className=" col-span-2 rounded-lg  bg-blue-50 px-5 shadow-md">
                 <Table>
                     <TableCaption>A list of your recent records.</TableCaption>
                     <TableHeader>
@@ -209,7 +209,7 @@ const DoctorTableComponent = () => {
                                                     width={40}
                                                 />
                                                 <div className=" ">
-                                                    <Menu>
+                                                    {/*<Menu>
                                                         <MenuButton className="inline-flex items-center gap-2 rounded-md  py-1.5 px-3 text-sm/6 font-semibold text-white shadow-inner shadow-white/10 focus:outline-none   data-[focus]:outline-1 data-[focus]:outline-white">
                                                             <Image
                                                                 src={WldLogo}
@@ -239,7 +239,7 @@ const DoctorTableComponent = () => {
                                                                 </button>
                                                             </MenuItem>
                                                         </MenuItems>
-                                                    </Menu>
+                                                    </Menu>*/}
                                                 </div>
                                             </div>
                                         </div>

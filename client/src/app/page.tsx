@@ -55,7 +55,7 @@ export default function Home() {
     ];
 
     return (
-        <main className="grid grid-cols-2 h-full py-10">
+        <main className="grid grid-cols-2 h-full py-10 px-2">
             <Swiper
                 modules={[Autoplay]}
                 className="h-full w-full "

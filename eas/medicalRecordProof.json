@@ -1,0 +1,34 @@
+{
+  "leaves": [
+    {
+      "type": "bool",
+      "name": "isInsured",
+      "value": true,
+      "salt": "0x91c972a7a3f3d942b5f2ffbe276f48a34dab41443958c6b42a29263e0ad00d48"
+    },
+    {
+      "type": "string",
+      "name": "diagnosis",
+      "value": "Hypertension",
+      "salt": "0xdedd4842a41176be7ef2826aef6b1666a319819a1ee300e267b87c7dad6c71de"
+    },
+    {
+      "type": "string",
+      "name": "name",
+      "value": "Alice Johnson",
+      "salt": "0xf64ee0b4cad7b248e92fc55eed60ad8ae97fa932dd6fe06fc9fb77c6b01a33c9"
+    },
+    {
+      "type": "uint256",
+      "name": "age",
+      "value": "28",
+      "salt": "0x762433aa8f205c521e0992af4452fbd54a522709ea546cf2f99edc1fa0d1f984"
+    }
+  ],
+  "proof": [],
+  "proofFlags": [
+    true,
+    true,
+    true
+  ]
+}

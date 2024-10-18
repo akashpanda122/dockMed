@@ -200,7 +200,7 @@ export default function ProviderModal({
                             width={40}
                         />
                         <div className=" ">
-                            <Menu>
+                            {/*<Menu>
                                 <MenuButton className="inline-flex items-center gap-2 rounded-md  py-1.5 px-3 text-sm/6 font-semibold text-white shadow-inner shadow-white/10 focus:outline-none   data-[focus]:outline-1 data-[focus]:outline-white">
                                     <Image
                                         src={WldLogo}
@@ -225,7 +225,7 @@ export default function ProviderModal({
                                         </button>
                                     </MenuItem>
                                 </MenuItems>
-                            </Menu>
+                            </Menu>*/}
                         </div>
                     </div>
                 </div>
@@ -256,7 +256,7 @@ export default function ProviderModal({
                             width={40}
                         />
                         <div className=" ">
-                            <Menu>
+                            {/*<Menu>
                                 <MenuButton className="inline-flex items-center gap-2 rounded-md  py-1.5 px-3 text-sm/6 font-semibold text-white shadow-inner shadow-white/10 focus:outline-none   data-[focus]:outline-1 data-[focus]:outline-white">
                                     <Image
                                         src={WldLogo}
@@ -281,14 +281,14 @@ export default function ProviderModal({
                                         </button>
                                     </MenuItem>
                                 </MenuItems>
-                            </Menu>
+                            </Menu>*/}
                         </div>
                     </div>
                 </div>
             ) : (
                 <Button
                     onClick={open}
-                    className="bg-themelinear px-6 py-2 text-sm  rounded-lg font-semibold cursor-pointer text-white "
+                    className="bg-[#0A6EFF] px-6 py-2 text-sm  rounded-lg font-semibold cursor-pointer text-white "
                 >
                     Create record
                 </Button>
@@ -312,7 +312,7 @@ export default function ProviderModal({
                             >
                                 <DialogPanel
                                     transition
-                                    className="w-full max-w-md rounded-xl shadow-2xl bg-[#EDF9FC] p-6 backdrop-blur-2xl duration-300 ease-out data-[closed]:transform-[scale(95%)] data-[closed]:opacity-0"
+                                    className="w-full max-w-md rounded-xl shadow-2xl bg-blue-50 p-6 backdrop-blur-2xl duration-300 ease-out data-[closed]:transform-[scale(95%)] data-[closed]:opacity-0"
                                 >
                                     {currentState === 0 ? (
                                         <motion.div
