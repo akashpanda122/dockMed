@@ -1,5 +1,7 @@
 # DocMed - NextGen Healthcare On-Chain
 
+![docMed](https://github.com/akashpanda122/dockMed/blob/main/client/public/assets/docMed_white.png)
+
 The DocMed is a decentralized healthcare platform that uses blockchain to securely manage medical records and facilitate cross-chain payments.
 
 ### **Core Focus**
@@ -30,11 +32,11 @@ Here are the contract addresses for different testnets involved in the docMed si
 
 ## 🚀 Future Enhancements
 
-- **🌐 Expansion to More Chains**
-  - Broaden support to include additional chains, increasing accessibility and flexibility for users.
+- **Multi-Chain Expansion**
+  - Expand DocMed's cross-chain compatibility to support more blockchain networks, enabling seamless interactions between users and healthcare providers across ecosystem. Will reduce transaction friction and increase global access to decentralized healthcare services.
   
-- **🧑‍⚕️ Enhanced Provider Tools**
-  - Develop advanced tools for healthcare providers to manage their practices more effectively on-chain.
+- **AI Powered Health Analytics**
+  - Plans to integrate AI-driven analytics to track patient health trends, enabling healthcare providers to make data-driven decisions and improving care while offering deeper insights into healthcare practices.
 
-- **📈 Advanced Analytics**
-  - Integrate analytics for tracking patient outcomes and optimizing healthcare services.
+- **Enhanced Tools and Global Interoperability**
+  - Plan to develop advanced tools for healthcare providers to manage records, appointments and biling on-chain, featuring automated reporting and AI diagnostics. DocMed will work towards interoperablity with traditional healthcare systems for a seamless hybrid approach.
